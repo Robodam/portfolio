@@ -1,8 +1,8 @@
 /**
-* Template Name: MyResume - v2.1.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: Robodam
+* Template URL: robodam.com
+* Author: robodam.com
+* 
 */
 
 /*--------------------------------------------------------------
@@ -281,7 +281,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -310,9 +310,10 @@ h6 {
 }
 
 #hero .social-links {
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
-/* .btn-get-started {
+.btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -321,9 +322,14 @@ h6 {
   display: inline-block;
   padding: 10px 28px;
   transition: 0.5s;
-  border: 2px solid #fff;
-  color: #fff;
-} */
+  border: 2px solid#ec4851;
+  color: #ec4851;
+}
+.btn-get-started:hover {
+  background: #ec4851;
+  border-color: #ec4851;
+  color: #f8f5f5;
+}
 
 #hero .social-links a {
   font-size: 24px;
